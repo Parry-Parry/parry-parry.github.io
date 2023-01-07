@@ -1,0 +1,50 @@
+/* set a max-width for horizontal fluid layout and make it centered */
+.container-sm{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 50vh; /* or 950px */
+  }
+section{
+    margin: 3vh;
+}
+.light{
+    font-family: 'Roboto Mono', monospace;
+    font-weight:300;
+}
+.reg{
+    font-family: 'Roboto Mono', monospace;
+    font-weight:400;
+}
+.regit{
+    font-family: 'Roboto Mono', monospace;
+    font-weight:400;
+    font-style: italic;
+}
+.heavy{
+    font-family: 'Roboto Mono', monospace;
+    font-weight:700;
+}
+a{
+    color: black;   
+}
+a.unlink {
+    color: inherit;
+}
+a.unlink:hover {
+    color: inherit;
+}
+a.unlink::after {
+    color: inherit;
+}
+a.unlink:active {
+    color: inherit;
+}
+#header{
+    margin-top: 20vh;
+}
+.social-links a{
+    margin-right: 2vh;
+}
+.cv-item{
+    margin-top: 5vh;
+}
