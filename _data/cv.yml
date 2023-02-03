@@ -2,96 +2,80 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Andrew Parry
     - name: Date of Birth
-      value: 14th March 1879
+      value: 4th July 2000
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD Candidate
+      institution: University of Glasgow, Glasgow, Scotland
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Working within the Terrier Team at Glasgow's Information Retrieval Group
+        - Interested in probabilistic machine learning, within this area I am interested in adversarial robustness
+    - title: Bsc (Hons) Computer Science with Data Management
+      institution: University of Glasgow, Glasgow, Scotland
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-
+        - 1st Class Honours
+        - <u>Courses:</u> Artificial Intelligence, Machine Learning, Deep Learning, Big Data, Text as Data, Information Retrieval, Functional Programming, Algorithmics
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: University of Glasgow, Glasgow, Scotland
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Work in training neural networks with aggregated data
+        - Main applications are in privacy-preserving analysis in Medicine and robustness against membership attacks
+        - title: My contribution
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Verified previous results with a newly optimized codebase
+            - Emperically evaluated dataset reconstruction across multiple modalities
+            - Developed a novel method of extrapolating from aggregate medical data
+    - title: Data & Analytics Intern
+      institution: Waterstons Consulting
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Handled full development of a production ready model and inferface with a client representing a large logistics company
+        - Created dashboards delivering KPIs and graphs for HR tasks and goals integrated with a HR database to reduce workload updating senior management
+        - Created a digital form and associated dashboard to quickly assess the opinions of multiple stakeholders in a software bidding process to replace previous manual methods
+  
+    - title: Graphic Designer
+      institution: Digital Skills Education
+      year: 2019-2021
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Education Assistant
+      institution: CoderDojo Scotland
+      year: 2017- 2021
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2018
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+        - 1st in Computing Science in both 5th & 6th Year
+        - 8 awards for Academic Merit
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Information Retrieval
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Dense Retrieval
+        - Adversarial Ranking Attacks
+    - title: NLP
       items:
-        - Description 1.
-        - Description 2.
+        - Retrieval Augmented Language Models
+        - Privacy Attacks on Language Models
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Chess, Graphic Design, Bass Guitar
+    - <u>Music:</u> Frankie Goes to Hollywood, Gary Numan, Billy Bragg, Aphex Twin
