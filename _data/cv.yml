@@ -16,7 +16,7 @@
       year: 2022
       description:
         - Working within the Terrier Team at Glasgow's Information Retrieval Group
-        - Interested in probabilistic machine learning, within this area I am interested in adversarial robustness
+        - Research on probabilistic machine learning, within this area I work in adversarial robustness
     - title: Bsc (Hons) Computer Science with Data Management
       institution: University of Glasgow, Glasgow, Scotland
       year: 2022
@@ -57,10 +57,13 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2022
+      items: 
+        - Awarded full scholarship for my post-graduate study
     - year: 2018
       items: 
-        - 1st in Computing Science in both 5th & 6th Year
-        - 8 awards for Academic Merit
+        - 1st in Computing Science in both 5th & 6th year
+        - 8 awards for academic merit
 
 - title: Academic Interests
   type: nested_list
