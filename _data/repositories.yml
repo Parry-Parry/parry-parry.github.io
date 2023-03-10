@@ -2,5 +2,6 @@ github_users:
   - Parry-Parry
 
 github_repos:
+  - Parry-Parry/QueryReduce
   - Parry-Parry/AggregateVAE
-  - Parry-Parry/MarcoReduction
+  - Parry-Parry/pyterrier_freetext
