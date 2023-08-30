@@ -1,0 +1,28 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: Me
+    entries:
+      - title: 2nd Year Information Retrieval PhD Candidate at the University of Glasgow
+      - title: Supervised by <a href="https://gdebasis.github.io/">Debasis Ganguly</a> and <a href="https://macavaney.us/">Sean MacAvaney</a>
+      - title: My research focuses on the trustworthiness of neural ranking models and how we can efficiently train them
+      - title: Github
+        url: https://github.com/Parry-Parry
+      - title: Twitter
+        url: https://twitter.com/MrParryParry
+      - title: More about me
+        url: about
+  
+  - title: Code
+    entries:
+      - title: LightChain
+        url: 
+      - title: PyTerrier FreeText
+        url: 
+      - title: PyTerrier GenerativeQR
+        url: 
+  - title: Contact
+    url: contact
+  - title: CV
+    url: https://parry-parry.github.io/assets/cv.pdf
