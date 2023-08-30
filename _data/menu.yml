@@ -17,11 +17,11 @@ entries:
   - title: Code
     entries:
       - title: LightChain
-        url: 
+        url: https://github.com/Parry-Parry/LightChain
       - title: PyTerrier FreeText
-        url: 
+        url: https://github.com/Parry-Parry/pyterrier_freetext
       - title: PyTerrier GenerativeQR
-        url: 
+        url: https://github.com/Parry-Parry/pyterrier_GenerativeQR
   - title: Contact
     url: contact
   - title: CV
