@@ -18,4 +18,4 @@ title: Dashboard
     </table>
 </div>
 
-<script src="{{ 'assets/dashboard.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/dashboard.js' | relative_url }}"></script>
