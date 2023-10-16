@@ -49,7 +49,6 @@ function findMostRecentUtilization(logData) {
     return Array.from(utilizationMap.values());
 }
 
-
 // Function to populate the table with data
 async function populateTable() {
     const systemIDs = ['uama', 'bruce', 'neoch']; // Add your system IDs here
@@ -80,7 +79,6 @@ async function populateTable() {
         }
     }
 }
-
 
 document.addEventListener('DOMContentLoaded', function () {
     // This code will execute when the page is fully loaded.
