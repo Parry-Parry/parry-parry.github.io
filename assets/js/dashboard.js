@@ -26,6 +26,7 @@ function parseLogData(logData, systemID) {
             
             if (gpuID && utilization) {
                 utilizationData.push({
+                    datetime: new Date(datetime),
                     systemID,
                     gpuID: `GPU${gpuID}`,
                     utilization: parseInt(utilization)
