@@ -9,11 +9,6 @@ async function fetchLogData(systemID) {
 
 // Function to parse log data and extract the most recent utilization
 function parseLogData(logData, systemID) {
-    if (!logData.trim()) {
-        // Handle empty log files
-        return [{ systemID, error: 'No data available' }];
-    }
-
     // Split log data by lines
     const lines = logData.split('\n');
     
@@ -22,19 +17,22 @@ function parseLogData(logData, systemID) {
 
     // Process each line of the log data
     for (const line of lines) {
-        const [datetime, gpuID, utilization] = line.split('\t');
+        // Trim the line to remove leading and trailing whitespace
+        const trimmedLine = line.trim();
         
-        if (gpuID && utilization) {
-            utilizationData.push({
-                systemID,
-                gpuID: `GPU${gpuID}`,
-                utilization: parseInt(utilization)
-            });
+        // Check if the line is not empty after trimming
+        if (trimmedLine) {
+            const [datetime, gpuID, utilization] = trimmedLine.split('\t');
+            
+            if (gpuID && utilization) {
+                utilizationData.push({
+                    systemID,
+                    gpuID: `GPU${gpuID}`,
+                    utilization: parseInt(utilization)
+                });
+            }
         }
-        // print row to console 
-        console.log(utilizationData);
     }
-
     return utilizationData;
 }
 
