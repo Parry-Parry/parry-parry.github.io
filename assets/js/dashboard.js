@@ -43,7 +43,7 @@ function parseLogData(logData, systemID) {
 
 // Function to populate the table with data
 async function populateTable() {
-    const systemIDs = ['uama', 'bruce', 'neoch', 'baird']; // Add your system IDs here
+    const systemIDs = ['uama', 'bruce', 'neoch']; // Add your system IDs here
 
     for (const systemID of systemIDs) {
         const logData = await fetchLogData(systemID);
