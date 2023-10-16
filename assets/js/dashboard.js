@@ -35,6 +35,20 @@ function parseLogData(logData, systemID) {
     }
     return utilizationData;
 }
+// Function to find the most recent utilization data by datetime
+function findMostRecentUtilization(logData) {
+    const utilizationMap = new Map(); // Map to store the most recent utilization data
+
+    for (const entry of logData) {
+        const key = `${entry.systemID}-${entry.gpuID}`;
+        if (!utilizationMap.has(key) || entry.datetime > utilizationMap.get(key).datetime) {
+            utilizationMap.set(key, entry);
+        }
+    }
+
+    return Array.from(utilizationMap.values());
+}
+
 
 // Function to populate the table with data
 async function populateTable() {
@@ -42,9 +56,9 @@ async function populateTable() {
 
     for (const systemID of systemIDs) {
         const logData = await fetchLogData(systemID);
-        const utilizationData = parseLogData(logData, systemID);
+        const mostRecentUtilizationData = findMostRecentUtilization(logData);
 
-        for (const data of utilizationData) {
+        for (const data of mostRecentUtilizationData) {
             const row = document.createElement('tr');
             const systemIDCell = document.createElement('td');
             const gpuIDCell = document.createElement('td');
@@ -62,12 +76,11 @@ async function populateTable() {
             row.appendChild(gpuIDCell);
             row.appendChild(utilizationCell);
 
-
-
             document.getElementById('data-table').appendChild(row);
         }
     }
 }
+
 
 document.addEventListener('DOMContentLoaded', function () {
     // This code will execute when the page is fully loaded.
