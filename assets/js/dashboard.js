@@ -31,6 +31,8 @@ function parseLogData(logData, systemID) {
                 utilization: parseInt(utilization)
             });
         }
+        // print row to console 
+        console.log(utilizationData);
     }
 
     return utilizationData;
@@ -61,6 +63,8 @@ async function populateTable() {
             row.appendChild(systemIDCell);
             row.appendChild(gpuIDCell);
             row.appendChild(utilizationCell);
+
+
 
             document.getElementById('data-table').appendChild(row);
         }
