@@ -17,29 +17,25 @@ function parseLogData(logData, systemID) {
     // Split log data by lines
     const lines = logData.split('\n');
     
-    // Create an object to store the most recent utilization for each GPU
-    const gpuUtilizations = {};
+    // Initialize an array to store utilization data
+    const utilizationData = [];
 
     // Process each line of the log data
     for (const line of lines) {
         const [datetime, gpuID, utilization] = line.split('\t');
         
         if (gpuID && utilization) {
-            const gpuIDKey = `GPU${gpuID}`;
-            gpuUtilizations[gpuIDKey] = {
-                datetime,
+            utilizationData.push({
+                systemID,
+                gpuID: `GPU${gpuID}`,
                 utilization: parseInt(utilization)
-            };
+            });
         }
     }
 
-    // Find the most recent utilization for each GPU
-    const mostRecentUtilizations = Object.values(gpuUtilizations);
-
-    mostRecentUtilizations.sort((a, b) => a.datetime.localeCompare(b.datetime));
-
-    return mostRecentUtilizations;
+    return utilizationData;
 }
+
 
 // Function to populate the table with data
 async function populateTable() {
