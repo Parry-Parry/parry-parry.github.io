@@ -36,7 +36,6 @@ function parseLogData(logData, systemID) {
     return utilizationData;
 }
 
-
 // Function to populate the table with data
 async function populateTable() {
     const systemIDs = ['uama', 'bruce', 'neoch']; // Add your system IDs here
