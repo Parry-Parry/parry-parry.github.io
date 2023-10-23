@@ -23,7 +23,8 @@ function parseLogData(logData, systemID) {
         // Check if the line is not empty after trimming
         if (trimmedLine) {
             const [datetime, gpuID, utilization] = trimmedLine.split('\t');
-            
+            // print the datetime, gpuID, and utilization to the console
+            console.log(datetime, gpuID, utilization);
             if (gpuID && utilization) {
                 utilizationData.push({
                     datetime: new Date(datetime),
@@ -55,25 +56,33 @@ async function populateTable() {
     const systemIDs = ['uama', 'bruce', 'neoch']; // Add your system IDs here
 
     for (const systemID of systemIDs) {
-        const logData = await fetchLogData(systemID);
-        const mostRecentUtilizationData = findMostRecentUtilization(logData);
+        try {
+            const logData = await fetchLogData(systemID);
+            const mostRecentUtilizationData = findMostRecentUtilization(logData);
 
-        for (const data of mostRecentUtilizationData) {
-            const row = document.createElement('tr');
-            const systemIDCell = document.createElement('td');
-            const gpuIDCell = document.createElement('td');
-            const utilizationCell = document.createElement('td');
+            for (const data of mostRecentUtilizationData) {
+                const row = document.createElement('tr');
+                const systemIDCell = document.createElement('td');
+                const gpuIDCell = document.createElement('td');
+                const utilizationCell = document.createElement('td');
 
-            systemIDCell.textContent = data.systemID;
-            
-            gpuIDCell.textContent = data.gpuID;
-            utilizationCell.textContent = `${data.utilization}%`;
-            
-            row.appendChild(systemIDCell);
-            row.appendChild(gpuIDCell);
-            row.appendChild(utilizationCell);
+                systemIDCell.textContent = data.systemID;
+                gpuIDCell.textContent = data.gpuID;
+                utilizationCell.textContent = `${data.utilization}%`;
 
-            document.getElementById('data-table').appendChild(row);
+                row.appendChild(systemIDCell);
+                row.appendChild(gpuIDCell);
+                row.appendChild(utilizationCell);
+
+                const dataTable = document.getElementById('data-table');
+                if (dataTable) {
+                    dataTable.appendChild(row);
+                } else {
+                    console.error("Element with ID 'data-table' not found in the HTML.");
+                }
+            }
+        } catch (error) {
+            console.error(`Error fetching or processing data for systemID ${systemID}: ${error.message}`);
         }
     }
 }
