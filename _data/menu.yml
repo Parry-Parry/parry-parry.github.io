@@ -16,6 +16,8 @@ entries:
   
   - title: Code
     entries:
+      - title: ParryUtils
+        url: https://github.com/Parry-Parry/ParryUtils
       - title: LightChain
         url: https://github.com/Parry-Parry/LightChain
       - title: PyTerrier FreeText

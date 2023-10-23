@@ -65,13 +65,10 @@ async function populateTable() {
             const utilizationCell = document.createElement('td');
 
             systemIDCell.textContent = data.systemID;
-            if (data.error) {
-                gpuIDCell.textContent = 'Error';
-                utilizationCell.textContent = data.error;
-            } else {
-                gpuIDCell.textContent = data.gpuID;
-                utilizationCell.textContent = `${data.utilization}%`;
-            }
+            
+            gpuIDCell.textContent = data.gpuID;
+            utilizationCell.textContent = `${data.utilization}%`;
+            
             row.appendChild(systemIDCell);
             row.appendChild(gpuIDCell);
             row.appendChild(utilizationCell);
