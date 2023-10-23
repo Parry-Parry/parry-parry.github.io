@@ -22,12 +22,17 @@ function parseLogData(logData, systemID) {
         
         // Check if the line is not empty after trimming
         if (trimmedLine) {
-            const [datetime, gpuID, utilization] = trimmedLine.split('\t');
+            const [datetimestr, gpuID, utilization] = trimmedLine.split('\t');
+            const [datePart, timePart] = datetimestr.split(' ');
+
+            const [year, month, day] = datePart.split('-');
+            const [hours, minutes, seconds] = timePart.split(':');
+
             // print the datetime, gpuID, and utilization to the console
             console.log(datetime, gpuID, utilization);
             if (gpuID && utilization) {
                 utilizationData.push({
-                    datetime: new Date(datetime),
+                    datetime: new Date(year, month - 1, day, hours, minutes, seconds),
                     systemID,
                     gpuID: `GPU${gpuID}`,
                     utilization: parseInt(utilization)
