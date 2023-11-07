@@ -5,13 +5,13 @@ title: CV
 
 <h2>Education</h2>
 
-<b>PhD in Natural Language Processing & Information Retrieval</u>
+<b>PhD in Natural Language Processing & Information Retrieval</b>
 
 University of Glasgow 
 
 Supervised by <a href="https://gdebasis.github.io/">Debasis Ganguly</a> and <a href="https://macavaney.us/">Sean MacAvaney</a>
 
-<b>Bsc (Hons) Computing Science with Data Management</u>
+<b>Bsc (Hons) Computing Science with Data Management</b>
 
 University of Glasgow 
 
@@ -19,7 +19,7 @@ Supervised by <a href="https://gdebasis.github.io/">Debasis Ganguly</a>
 
 <h2>Experience</h2>
 
-<b>Research Assistant</u>
+<b>Research Assistant</b>
 
 University of Glasgow 
 
@@ -27,13 +27,13 @@ Work in meta-learning using probablistic inference
 
 PI: <a href="https://gdebasis.github.io/">Debasis Ganguly</a>
 
-<b>Data Analytics Intern</u>
+<b>Data Analytics Intern</b>
 
 Waterstons Consulting 
 
 Deployment of large scale vision models, data curation and optimisation of company procedures
 
-<b>Teaching Assistant, Graphic Designer</u>
+<b>Teaching Assistant, Graphic Designer</b>
 
 Digital Skills Scotland
 
