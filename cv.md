@@ -11,7 +11,7 @@ University of Glasgow
 
 Supervised by <a href="https://gdebasis.github.io/">Debasis Ganguly</a> and <a href="https://macavaney.us/">Sean MacAvaney</a>
 
-Bsc (Hons) Computing Science with Data Management
+<u>Bsc (Hons) Computing Science with Data Management</u>
 
 University of Glasgow 
 
