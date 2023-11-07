@@ -9,11 +9,15 @@ title: CV
 
 University of Glasgow 
 
+Full Scholarship
+
 Supervised by <a href="https://gdebasis.github.io/">Debasis Ganguly</a> and <a href="https://macavaney.us/">Sean MacAvaney</a>
 
 <b>Bsc (Hons) Computing Science with Data Management</b>
 
 University of Glasgow 
+
+1st Class Honours
 
 Supervised by <a href="https://gdebasis.github.io/">Debasis Ganguly</a>
 
