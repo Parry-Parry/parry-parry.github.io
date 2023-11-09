@@ -27,7 +27,7 @@ Supervised by <a href="https://gdebasis.github.io/">Debasis Ganguly</a>
 
 University of Glasgow 
 
-Work in meta-learning using probablistic inference
+Work in meta-learning using variational inference
 
 PI: <a href="https://gdebasis.github.io/">Debasis Ganguly</a>
 
