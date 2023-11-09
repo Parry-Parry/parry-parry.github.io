@@ -1,37 +1,35 @@
 # For documentation on this file, see:
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
-entries:
-  - title: Me
-    entries:
-      - title: 2nd Year Information Retrieval PhD Candidate at the University of Glasgow
-      - title: Supervised by <a href="https://gdebasis.github.io/">Debasis Ganguly</a> and <a href="https://macavaney.us/">Sean MacAvaney</a>
-      - title: My research focuses on the trustworthiness of neural ranking models and how we can efficiently train them
-      - title: Github
-        url: https://github.com/Parry-Parry
-      - title: Twitter
-        url: https://twitter.com/MrParryParry
-      - title: Contact
-        url: contact
-      - title: CV
-        url: cv
-      - title: More about me
-        url: about
+- title: Me
+  entries:
+    - title: 2nd Year Information Retrieval PhD Candidate at the University of Glasgow
+    - title: Supervised by <a href="https://gdebasis.github.io/">Debasis Ganguly</a> and <a href="https://macavaney.us/">Sean MacAvaney</a>
+    - title: My research focuses on the trustworthiness of neural ranking models and how we can efficiently train them
+    - title: Github
+      url: https://github.com/Parry-Parry
+    - title: Twitter
+      url: https://twitter.com/MrParryParry
+    - title: Contact
+      url: contact
+    - title: CV
+      url: cv
+    - title: Lore
+      url: about
 
-entries:
-  - title: Pre-Prints
-    entries:
-      - title: Generative Relevance Feedback and Convergence of Adaptive Re-Ranking, University of Glasgow Terrier Team at TREC DL 2023
-        url: https://parry-parry.github.io/assets/pdf/dl23.pdf
-entries:
-  - title: Code
-    entries:
-      - title: ParryUtils
-        url: https://github.com/Parry-Parry/ParryUtils
-      - title: LightChain
-        url: https://github.com/Parry-Parry/LightChain
-      - title: PyTerrier FreeText
-        url: https://github.com/Parry-Parry/pyterrier_freetext
-      - title: PyTerrier GenerativeQR
-        url: https://github.com/Parry-Parry/pyterrier_GenerativeQR
+- title: Pre-Prints
+  entries:
+    - title: Generative Relevance Feedback and Convergence of Adaptive Re-Ranking, University of Glasgow Terrier Team at TREC DL 2023
+      url: https://parry-parry.github.io/assets/pdf/dl23.pdf
+
+- title: Code
+  entries:
+    - title: ParryUtils
+      url: https://github.com/Parry-Parry/ParryUtils
+    - title: LightChain
+      url: https://github.com/Parry-Parry/LightChain
+    - title: PyTerrier FreeText
+      url: https://github.com/Parry-Parry/pyterrier_freetext
+    - title: PyTerrier GenerativeQR
+      url: https://github.com/Parry-Parry/pyterrier_GenerativeQR
   
