@@ -7,10 +7,7 @@ entries:
       - title: 2nd Year Information Retrieval PhD Candidate at the University of Glasgow
       - title: Supervised by <a href="https://gdebasis.github.io/">Debasis Ganguly</a> and <a href="https://macavaney.us/">Sean MacAvaney</a>
       - title: My research focuses on the trustworthiness of neural ranking models and how we can efficiently train them
-      - title: Github
-        url: https://github.com/Parry-Parry
-      - title: Twitter
-        url: https://twitter.com/MrParryParry
+      - title: <a href="https://github.com/Parry-Parry">Github</a> <a href="https://twitter.com/MrParryParry">Twitter</a> 
       - title: Contact
         url: contact
       - title: CV
