@@ -43,11 +43,11 @@ document.addEventListener('DOMContentLoaded', () => {
     for(let i=0; i<canvas.width; i+=gridSize) {
         for(let j=0; j<canvas.height; j+=gridSize) {
         
-        const dx = i - mouseX;
-        const dy = j - mouseY;
+        const dx = i - parseFloat(mouseX);
+        const dy = j - parseFloat(mouseY);
         const dist = Math.sqrt(dx*dx + dy*dy);
         
-        const pert = Math.sin(dist/10)*50;
+        const pert =  Math.abs(Math.sin(Math.abs(dist)/10))*50;
         
         ctx.beginPath();
         ctx.arc(i, j, pert, 0, Math.PI*2);
