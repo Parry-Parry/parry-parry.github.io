@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Draw grid
     const gridSize = 50;
-    ctx.lineWidth = 0.5;
+    ctx.lineWidth = 0.1;
     ctx.strokeStyle = 'white';
 
     for(let i=0; i<canvas.width; i+=gridSize) {
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const dy = j - parseFloat(mouseY);
         const dist = Math.sqrt(dx*dx + dy*dy);
         
-        const pert =  Math.abs(Math.sin(Math.abs(dist)/10))*50;
+        const pert =  Math.abs(Math.sin(Math.abs(dist)/20))*20;
         
         ctx.beginPath();
         ctx.arc(i, j, pert, 0, Math.PI*2);
