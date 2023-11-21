@@ -45,7 +45,15 @@ function resizeCanvas() {
   function perturbGrid() {
    
     // Draw perturbation circles  
-    ctx.fillStyle = 'rgba(0,0,0,0.07)';
+    const gradient = ctx.createRadialGradient(mouseX, mouseY, 0, mouseX, mouseY, 100);
+
+    // Add grey color stops
+    gradient.addColorStop(0, 'white');
+    gradient.addColorStop(0.5, 'grey');
+    gradient.addColorStop(1, 'black');  
+
+  // Set fill style to gradient
+    ctx.fillStyle = gradient;
     
     for(let i=0; i<canvas.width; i+=50) {
       for(let j=0; j<canvas.height; j+=50) {
