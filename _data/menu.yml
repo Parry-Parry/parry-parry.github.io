@@ -26,8 +26,6 @@ entries:
         url: https://github.com/Parry-Parry/ParryUtils
       - title: LightChain
         url: https://github.com/Parry-Parry/LightChain
-      - title: PyTerrier FreeText
-        url: https://github.com/Parry-Parry/pyterrier_freetext
       - title: PyTerrier GenerativeQR
         url: https://github.com/Parry-Parry/pyterrier_GenerativeQR
     
