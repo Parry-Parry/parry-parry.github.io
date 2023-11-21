@@ -54,7 +54,7 @@ function resizeCanvas() {
         let dy = j - mouseY;
         let dist = Math.sqrt(dx*dx + dy*dy);
       
-        let pert = Math.abs(Math.sin(dist/30))*30;
+        let pert = Math.abs(Math.sin(dist/30))*5;
         
         ctx.beginPath();
         ctx.arc(i, j, pert, 0, Math.PI*2);
