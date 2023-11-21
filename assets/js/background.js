@@ -59,3 +59,4 @@ document.addEventListener('DOMContentLoaded', () => {
     } 
     perturbGrid();
   });
+  window.addEventListener('resize', perturbGrid);
