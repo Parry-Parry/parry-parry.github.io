@@ -1,5 +1,8 @@
 let mouseX = 0;
 let mouseY = 0;
+let meanX = 0; 
+let meanY = 0;
+const stdDev = 50;
 
 // Canvas and animation
 let canvas;
