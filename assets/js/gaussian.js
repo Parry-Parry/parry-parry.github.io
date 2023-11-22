@@ -1,6 +1,10 @@
+
+let canvas;
+let ctx;
+
 document.addEventListener('DOMContentLoaded', function () {
-    const canvas = document.getElementById('canvas');
-    const ctx = canvas.getContext('2d');
+    canvas = document.getElementById('canvas');
+    ctx = canvas.getContext('2d');
 
     let mouseX = 0;
     let mean = { x: 0, y: 0 };
