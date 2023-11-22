@@ -1,6 +1,7 @@
 let mouseX = 0;
 let mouseY = 0;
-
+let meanX = 0; 
+let meanY = 0;
 // Canvas and animation
 let canvas;
 let ctx;
@@ -35,8 +36,6 @@ function resizeCanvas() {
     let maxValue = 0;
     let maxX = 0;
     let maxY = 0;
-    let meanX = 0; 
-    let meanY = 0;
     const stdDev = 50;
     
     for(let i = 0; i < canvas.width; i++) {
@@ -76,10 +75,10 @@ document.addEventListener('DOMContentLoaded', () => {
     animation();
 
     // Mouse Move listener  
-    window.addEventListener('mousemove', (event) => {
-        mouseX = event.clientX;  
-        mouseY = event.clientY;
-    });
+    window.addEventListener("mousemove", function(e) {    
+        meanX = e.clientX;
+        meanY = e.clientY; 
+      });
 
     // Resize listener
     window.addEventListener('resize', resizeCanvas);
