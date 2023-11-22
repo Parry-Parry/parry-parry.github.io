@@ -21,10 +21,29 @@ function resizeCanvas() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight; 
   }
+  function drawGrid() {
+
+    // Draw white grid lines
+    ctx.strokeStyle = 'rgba(255,255,255, 0.1)';
+    
+    ctx.beginPath();
+    
+    for(let i=0; i<canvas.width; i+=50) {
+      ctx.moveTo(i, 0);
+      ctx.lineTo(i, canvas.height);
+    }
+    
+    for(let j=0; j<canvas.height; j+=50) {
+      ctx.moveTo(0, j);
+      ctx.lineTo(canvas.width, j);
+    }
+    
+    ctx.stroke();  
+  }
   
   // Perturb grid
   function perturbGrid() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
+   
     // Draw perturbation circles  
     const gradient = ctx.createRadialGradient(mouseX, mouseY, 0, mouseX, mouseY, 100);
 
@@ -35,34 +54,23 @@ function resizeCanvas() {
 
   // Set fill style to gradient
     ctx.fillStyle = gradient;
-
-    let maxValue = 0;
-    let maxX = 0;
-    let maxY = 0;
     
-    for(let i = 0; i < canvas.width; i++) {
-        for(let j = 0; j < canvas.height; j++) {
+    for(let i=0; i<canvas.width; i+=50) {
+      for(let j=0; j<canvas.height; j+=50) {
+      
+        let dx = i - mouseX;
+        let dy = j - mouseY;
+        let dist = Math.sqrt(dx*dx + dy*dy);
+      
+        let pert = Math.abs(Math.sin(dist/30))*5;
         
-          // Calculate gaussian for pixel
-            const dx = i - meanX;
-            const dy = j - meanY;
-            const dist = Math.sqrt(dx*dx + dy*dy);  
-            const gaussian = Math.exp(-(dist*dist)/(2*stdDev*stdDev));
-          
-          // Check if new max
-          if(gaussian > maxValue) {
-            maxValue = gaussian;
-            maxX = i; 
-            maxY = j;
-          }
-        }
+        ctx.beginPath();
+        ctx.arc(i, j, pert, 0, Math.PI*2);
+        ctx.fill();
       }
-      ctx.beginPath();
-    ctx.moveTo(maxX, 0);
-    ctx.lineTo(maxX, canvas.height); 
-    ctx.strokeStyle = "white";
-    ctx.stroke();
     }
+  }
+  
 // Initialize 
 document.addEventListener('DOMContentLoaded', () => {
 
