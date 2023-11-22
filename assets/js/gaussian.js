@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
             ctx.lineTo(x, y);
           }
         }
-
+        ctx.lineWidth = 2; 
         ctx.strokeStyle = 'rgba(255, 255, 255, 0.7)'; // Adjust the color and opacity based on your design
         ctx.stroke();
       }
