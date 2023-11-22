@@ -3,7 +3,7 @@ let canvas;
 let ctx;
 
 document.addEventListener('DOMContentLoaded', function () {
-    canvas = document.getElementById('canvas');
+    canvas = document.getElementById('bgcanvas');
     ctx = canvas.getContext('2d');
 
     let mouseX = 0;

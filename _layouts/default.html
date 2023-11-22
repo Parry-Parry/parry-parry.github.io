@@ -2,7 +2,6 @@
 <html lang="{{ page.lang | default: "en" }}">
   {%- include head.html -%}
   <body a="{{ site.theme_config.appearance | default: "auto" }}">
-    <canvas id="canvas"></canvas>
     <main class="page-content" aria-label="Content">
       <div class="w">
         {{ content }}
@@ -19,6 +18,7 @@
       {% endfor %}
     {% endif %}
   </body>
+  <canvas id="bgcanvas"></canvas>
 </html>
 
 <script src="{{ 'assets/js/gaussian.js' | relative_url }}"></script>
