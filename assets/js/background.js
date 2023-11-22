@@ -1,8 +1,5 @@
 let mouseX = 0;
 let mouseY = 0;
-let meanX = 0; 
-let meanY = 0;
-const stdDev = 50;
 
 // Canvas and animation
 let canvas;
@@ -39,6 +36,9 @@ function resizeCanvas() {
     let maxValue = 0;
     let maxX = 0;
     let maxY = 0;
+    let meanX = 0; 
+    let meanY = 0;
+    const stdDev = 50;
     
     for(let i = 0; i < canvas.width; i++) {
         for(let j = 0; j < canvas.height; j++) {
