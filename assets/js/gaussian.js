@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const canvas = document.getElementById('backgroundCanvas');
+    const canvas = document.getElementById('canvas');
     const ctx = canvas.getContext('2d');
 
     let mouseX = 0;
