@@ -9,9 +9,6 @@ const animation = () => {
   // Clear canvas
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   
-  // Draw background grid
-  drawGrid();
-  
   // Perturb grid
   perturbGrid();
 
