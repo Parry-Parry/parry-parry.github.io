@@ -1,7 +1,7 @@
 let mouseX = 0;
 let mouseY = 0;
-let meanX = 0;
-let meanY = 0;
+meanX = 100;
+meanY = 100;
 
 // Canvas and animation
 let canvas;
