@@ -29,25 +29,26 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function drawGaussian() {
-      const amplitude = 50; // You can adjust this value based on your design
-      const sigma = 0.1; // You can adjust this value based on your design
+        const amplitude = 50; // You can adjust this value based on your design
+        const sigma = 0.1; // You can adjust this value based on your design
 
-      ctx.beginPath();
+        ctx.beginPath();
 
-      for (let x = 0; x < canvas.width; x++) {
-        const y = amplitude * Math.exp(-0.5 * Math.pow((x / canvas.width - mean.x) / sigma, 2)) + mean.y * canvas.height;
+        for (let x = 0; x < canvas.width; x++) {
+          const exponent = -0.5 * Math.pow((x / canvas.width - mean.x) / sigma, 2);
+          const y = amplitude * Math.exp(exponent) / (sigma * Math.sqrt(2 * Math.PI)) + mean.y * canvas.height;
 
-        if (x === 0) {
-          ctx.moveTo(x, y);
-        } else {
-          ctx.lineTo(x, y);
+          if (x === 0) {
+            ctx.moveTo(x, y);
+          } else {
+            ctx.lineTo(x, y);
+          }
         }
+
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.1)'; // Adjust the color and opacity based on your design
+        ctx.stroke();
       }
 
-      ctx.strokeStyle = 'rgba(255, 255, 255, 0.1)'; // Adjust the color and opacity based on your design
-      ctx.stroke();
-    }
-
-    // Initial draw
-    updateMean();
-  });
+      // Initial draw
+      updateMean();
+    });
