@@ -29,8 +29,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function drawGaussian() {
-        const amplitude = 50; // You can adjust this value based on your design
-        const sigma = 0.1; // You can adjust this value based on your design
+        const amplitude = 200; // You can adjust this value based on your design
+        const sigma = 0.2; // You can adjust this value based on your design
 
         ctx.beginPath();
 
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
           }
         }
 
-        ctx.strokeStyle = 'rgba(255, 255, 255, 0.1)'; // Adjust the color and opacity based on your design
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.7)'; // Adjust the color and opacity based on your design
         ctx.stroke();
       }
 
