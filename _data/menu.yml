@@ -24,6 +24,8 @@ entries:
     entries:
       - title: ParryUtils
         url: https://github.com/Parry-Parry/ParryUtils
+      - title: idaLLM:
+        url: https://github.com/Parry-Parry/idaLLM
       - title: LightChain
         url: https://github.com/Parry-Parry/LightChain
       - title: PyTerrier GenerativeQR
