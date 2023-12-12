@@ -27,7 +27,7 @@ Supervised by <a href="https://gdebasis.github.io/">Debasis Ganguly</a>
 
 University of Glasgow 
 
-Work in meta-learning using variational inference
+Work in variational inference for low information training of neural models.
 
 PI: <a href="https://gdebasis.github.io/">Debasis Ganguly</a>
 
@@ -45,6 +45,8 @@ Work for University of Edinburgh, Scottish Government and SQA providing lessons 
 
 <h2>Academic Service</h2>
 
+TREC: Lead on Deep Learning 2023 Track (<a href='https://parry-parry.github.io/assets/pdf/dl23.pdf'>Notebook</a>) (3rd Overall)
+
 Marking: Text as Data (MSci), Machine Learning (BSc Hons)
 
 Peer Review: Springer Nature Computer Science, NeurIPS’23, SPIRE ’23
@@ -54,8 +56,6 @@ Assistant Reviewer: KDD’23, WWW’23, ICTIR’23, CIKM’23
 Undergraduate Mentoring: YanLing Liu, Rajan Rana
 
 Postgraduate Co-Supervision: Rachael Charmaine Martin, Hallton Jiao, Haodong Ma
-
-TREC: Lead on Deep Learning 2023 Track (<a href='https://parry-parry.github.io/assets/pdf/dl23.pdf'>Notebook</a>)
 
 
 PDF Format: <a href='https://parry-parry.github.io/assets/pdf/cv.pdf'>Here</a>
