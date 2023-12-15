@@ -1,6 +1,8 @@
 
 let pageWidth = document.body.clientWidth;
 let pageHeight = document.body.clientHeight;
+const gaussWidth = 200;
+const gaussHeight = 40;
 
 // Draw center white line
 let line = document.createElement("div");
@@ -24,6 +26,7 @@ gauss2.style.height = pageHeight+"px"
 gauss2.style.backgroundColor = "black";
 gauss2.style.position = "absolute";
 let cursorX;
+
 
 
 function drawGaussians() {
