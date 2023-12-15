@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
     line.style.width = "2px";
     line.style.height = pageHeight+"px";
     line.style.left = pageWidth/2+"px";
-    line.style.backgroundColor = "white";
+    line.style.backgroundColor = "black";
     document.body.appendChild(line);
 
     // Gaussians parameters  
@@ -21,7 +21,7 @@ window.addEventListener('load', () => {
     gauss2 = document.createElement("div"); 
     gauss2.style.width = "2px";
     gauss2.style.height = pageHeight+"px"   
-    gauss2.style.backgroundColor = "white";
+    gauss2.style.backgroundColor = "black";
     gauss2.style.position = "absolute";
     let cursorX;
 
