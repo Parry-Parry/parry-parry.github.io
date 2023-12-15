@@ -21,18 +21,18 @@ entries:
 
   - title: Pre-Prints
     entries:
-      - title: Analyzing Adversarial Attacks on Sequence-to-Sequence Relevance Models <br> A. Parry, M. Fröbe, S. MacAvaney, M. Potthast, M. Hagen <br> ECIR 2024 
+      - title: Analyzing Adversarial Attacks on Sequence-to-Sequence Relevance Models <br> A. Parry, M. Fröbe, S. MacAvaney, M. Potthast, M. Hagen <br> ECIR 2024 <br> 
       - title: Generative Relevance Feedback and Convergence of Adaptive Re-Ranking, University of Glasgow Terrier Team at TREC DL 2023
         url: https://parry-parry.github.io/assets/pdf/dl23.pdf
-
+      - title: A. Parry, T. Jaenich, S. MacAvaney, I. Ounis <br> TREC Deep Learning 2023 <br>
   - title: Code
     entries:
+      - title: LightChain
+        url: https://github.com/Parry-Parry/LightChain
       - title: ParryUtils
         url: https://github.com/Parry-Parry/ParryUtils
       - title: idaLLM
         url: https://github.com/Parry-Parry/idaLLM
-      - title: LightChain
-        url: https://github.com/Parry-Parry/LightChain
       - title: PyTerrier GenerativeQR
         url: https://github.com/Parry-Parry/pyterrier_GenerativeQR
     
