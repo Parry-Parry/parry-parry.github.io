@@ -49,13 +49,12 @@ TREC: Lead on Deep Learning 2023 Track (<a href='https://parry-parry.github.io/a
 
 Marking: Text as Data (MSci), Machine Learning (BSc Hons)
 
-Peer Review: Springer Nature Computer Science, NeurIPS’23, SPIRE ’23
+Peer Review: Springer Nature Computer Science, NeurIPS ’23, SPIRE ’23, ’ECIR 24
 
-Assistant Reviewer: KDD’23, WWW’23, ICTIR’23, CIKM’23
+Assistant Reviewer: KDD ’23, WWW ’23, ICTIR ’23, CIKM ’23
 
 Undergraduate Mentoring: YanLing Liu, Rajan Rana
 
 Postgraduate Co-Supervision: Rachael Charmaine Martin, Hallton Jiao, Haodong Ma
-
 
 PDF Format: <a href='https://parry-parry.github.io/assets/pdf/cv.pdf'>Here</a>
