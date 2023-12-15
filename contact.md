@@ -4,7 +4,7 @@ title: Contact
 ---
 Email -->
 
-a.parry.1@research.gla.ac.uk
+first_initial.last_name.1@research.gla.ac.uk
 
 Office -->
 
