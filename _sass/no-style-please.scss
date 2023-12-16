@@ -36,8 +36,8 @@ body {
   margin: 0;
   min-height: 100%;
   overflow-wrap: break-word;
-  /*transform: perspective(1000px) rotateX(15deg);*/
 }
+
 .scroll-container {
   overflow-y: auto;
   max-height: 80vh; /* Adjust the max-height to control the scrolling area */
@@ -45,6 +45,7 @@ body {
 
 .scroll-content {
   padding: 20px;
+}
 a {
   color: rgb(43, 43, 43);
 }
