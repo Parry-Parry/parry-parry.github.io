@@ -25,6 +25,9 @@ html { height: 100%; }
 
 body {
   color: black;
+  background: radial-gradient(circle at center, #ffffff 0%, #000000 100%);
+  image-rendering: pixelated; /* Apply pixelation */
+  filter: blur(5px); /* Adjust the blur radius for the desired pixel size */
   font-family: monospace;
   font-size: 16px;
   line-height: 1.4;
