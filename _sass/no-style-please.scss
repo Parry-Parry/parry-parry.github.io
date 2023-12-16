@@ -27,7 +27,6 @@ body {
   color: black;
   background: radial-gradient(circle at center, rgba(0,0,0,1) 30%, rgba(255,255,255,1) 94%);
   image-rendering: pixelated; /* Apply pixelation */
-  overflow: hidden;
   display: flex;
   /*filter: blur(20px);  Adjust the blur radius for the desired pixel size */
   font-family: monospace;
