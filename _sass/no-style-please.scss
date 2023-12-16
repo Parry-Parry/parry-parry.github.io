@@ -25,7 +25,7 @@ html { height: 100%; }
 
 body {
   color: black;
-  background: radial-gradient(circle, rgba(255,255,255,1) 94%, rgba(0,0,0,1) 30%);
+  background: radial-gradient(circle at center, #000000 0%, #ffffff 100%);
   image-rendering: pixelated; /* Apply pixelation */
   /*filter: blur(20px);  Adjust the blur radius for the desired pixel size */
   font-family: monospace;
@@ -38,6 +38,7 @@ body {
 a {
   color: rgb(43, 43, 43);
 }
+
 .post-meta { text-align: right; }
 
 h2, h3, h4, h5, h6 { margin-top: 3rem; }
