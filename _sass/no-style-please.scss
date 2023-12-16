@@ -27,6 +27,8 @@ body {
   color: black;
   background: radial-gradient(circle at center, #000000 0%, #ffffff 100%);
   image-rendering: pixelated; /* Apply pixelation */
+  overflow: hidden;
+  display: flex;
   filter: blur(2px); /* Adjust the blur radius for the desired pixel size */
   font-family: monospace;
   font-size: 16px;
@@ -36,6 +38,13 @@ body {
   overflow-wrap: break-word;
   transform: perspective(1000px) rotateX(15deg);
 }
+.scroll-container {
+  overflow-y: auto;
+  max-height: 80vh; /* Adjust the max-height to control the scrolling area */
+}
+
+.scroll-content {
+  padding: 20px;
 a {
   color: rgb(43, 43, 43);
 }
