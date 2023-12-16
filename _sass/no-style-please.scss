@@ -25,7 +25,7 @@ html { height: 100%; }
 
 body {
   color: black;
-  background: radial-gradient(circle at center, #000000 0%, #ffffff 100%);
+  background: radial-gradient(circle at center, #ffffff 0%, #000000 100%);
   image-rendering: pixelated; /* Apply pixelation */
   overflow: hidden;
   display: flex;
@@ -36,7 +36,7 @@ body {
   margin: 0;
   min-height: 100%;
   overflow-wrap: break-word;
-  transform: perspective(1000px) rotateX(15deg);
+  /*transform: perspective(1000px) rotateX(15deg);*/
 }
 .scroll-container {
   overflow-y: auto;
