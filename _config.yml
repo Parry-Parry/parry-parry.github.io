@@ -4,7 +4,7 @@ email: a.parry.1@research.gla.ac.uk # email of site's author
 url: https://parry-parry.github.io # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  Home site and porfolio for Andrew Parry
+ Homepage of A Parry
 
 permalink: /:slug.html
 
