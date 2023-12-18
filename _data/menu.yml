@@ -7,7 +7,7 @@ entries:
     - title: 2nd Year Information Retrieval PhD Candidate at the University of Glasgow
     - title: Supervised by <a href="https://gdebasis.github.io/">Debasis Ganguly</a> and <a href="https://macavaney.us/">Sean MacAvaney</a>
     - title: My research focuses on the trustworthiness of neural ranking models and how we can efficiently train them
-    - title: <a href="https://github.com/Parry-Parry">Github</a> <a href="https://twitter.com/MrParryParry">Twitter</a> <a href="{% link contact%}">Contact</a> <a href="{% link cv%}">CV</a> <a href="{% link about%}">Lore</a>
+    - title: <a href="https://github.com/Parry-Parry">Github</a> <a href="https://twitter.com/MrParryParry">Twitter</a> <a href="contact">Contact</a> <a href="cv">CV</a> <a href="about">Lore</a>
   - title: Pre-Prints
     entries:
       - title: Analyzing Adversarial Attacks on Sequence-to-Sequence Relevance Models <br> A. Parry, M. Fröbe, S. MacAvaney, M. Potthast, M. Hagen <br> ECIR 2024 <br> 
