@@ -3,58 +3,58 @@ layout: page
 title: CV
 ---
 
-<h2>Education</h2>
+<h2 id='colour'>Education</h2>
 
-<b>PhD in Natural Language Processing & Information Retrieval</b>
+<b id='colour'>PhD in Natural Language Processing & Information Retrieval</b>
 
-University of Glasgow 
+<span id='colour'>University of Glasgow</span>
 
-Full Scholarship
+<span id='colour'>Full Scholarship</span>
 
-Supervised by <a href="https://gdebasis.github.io/">Debasis Ganguly</a> and <a href="https://macavaney.us/">Sean MacAvaney</a>
+<span id='colour'>Supervised by <a href="https://gdebasis.github.io/">Debasis Ganguly</a> and <a href="https://macavaney.us/">Sean MacAvaney</a></span>
 
-<b>Bsc (Hons) Computing Science with Data Management</b>
+<b id='colour'>Bsc (Hons) Computing Science with Data Management</b>
 
-University of Glasgow 
+<span id='colour'>University of Glasgow</span>
 
-1st Class Honours
+<span id='colour'>1st Class Honours</span>
 
-Supervised by <a href="https://gdebasis.github.io/">Debasis Ganguly</a>
+<span id='colour'>Supervised by <a href="https://gdebasis.github.io/">Debasis Ganguly</a></span>
 
-<h2>Experience</h2>
+<h2 id='colour'>Experience</h2>
 
-<b>Research Assistant</b>
+<b id='colour'>Research Assistant</b>
 
-University of Glasgow 
+<span id='colour'>University of Glasgow</span>
 
-Work in variational inference for low information training of neural models.
+<span id='colour'>Work in variational inference for low information training of neural models.</span>
 
-PI: <a href="https://gdebasis.github.io/">Debasis Ganguly</a>
+<span id='colour'>PI: <a href="https://gdebasis.github.io/">Debasis Ganguly</a>
 
-<b>Data Analytics Intern</b>
+<b id='colour'>Data Analytics Intern</b>
 
-Waterstons Consulting 
+<span id='colour'>Waterstons Consulting</span>
 
-Deployment of large scale vision models, data curation and optimisation of company procedures
+<span id='colour'>Deployment of large scale vision models, data curation and optimisation of company procedures</span>
 
-<b>Teaching Assistant, Graphic Designer</b>
+<b id='colour'>Teaching Assistant, Graphic Designer</b>
 
-Digital Skills Scotland
+<span id='colour'>Digital Skills Scotland</span>
 
-Work for University of Edinburgh, Scottish Government and SQA providing lessons and graphics
+<span id='colour'>Work for University of Edinburgh, Scottish Government and SQA providing lessons and graphics</span>
 
-<h2>Academic Service</h2>
+<h2 id='colour'>Academic Service</h2>
 
-TREC: Lead on Deep Learning 2023 Track (<a href='https://parry-parry.github.io/assets/pdf/dl23.pdf'>Notebook</a>) (3rd Overall)
+<span id='colour'>TREC: Lead on Deep Learning 2023 Track (<a href='https://parry-parry.github.io/assets/pdf/dl23.pdf'>Notebook</a>) (3rd Overall)</span>
 
-Marking: Text as Data (MSci), Machine Learning (BSc Hons)
+<span id='colour'>Marking: Text as Data (MSci), Machine Learning (BSc Hons)</span>
 
-Peer Review: Springer Nature Computer Science, NeurIPS ’23, SPIRE ’23, ’ECIR 24
+<span id='colour'>Peer Review: Springer Nature Computer Science, NeurIPS ’23, SPIRE ’23, ECIR ’24</span>
 
-Assistant Reviewer: KDD ’23, WWW ’23, ICTIR ’23, CIKM ’23
+<span id='colour'>Assistant Reviewer: KDD ’23, WWW ’23, ICTIR ’23, CIKM ’23</span>
 
-Undergraduate Mentoring: YanLing Liu, Rajan Rana
+<span id='colour'>Undergraduate Mentoring: YanLing Liu, Rajan Rana</span>
 
-Postgraduate Co-Supervision: Rachael Charmaine Martin, Hallton Jiao, Haodong Ma
+<span id='colour'>Postgraduate Co-Supervision: Rachael Charmaine Martin, Hallton Jiao, Haodong Ma</span>
 
-PDF Format: <a href='https://parry-parry.github.io/assets/pdf/cv.pdf'>Here</a>
+<span id='colour'>PDF Format: <a href='https://parry-parry.github.io/assets/pdf/cv.pdf'>Here</a></span>
