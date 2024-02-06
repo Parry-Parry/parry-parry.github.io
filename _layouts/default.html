@@ -7,7 +7,7 @@
       Your browser does not support the video tag.
   </video>
     <main class="page-content" aria-label="Content">
-      <div class="w">
+      <div class="w", id="content">
         {{ content }}
       </div>
     </main>
@@ -20,5 +20,20 @@
         <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
       {% endfor %}
     {% endif %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+    <script>
+        const video = document.getElementById('background');
+        const content = document.getElementById('w');
+        const colorThief = new ColorThief();
+
+        video.addEventListener('play', function() {
+            setInterval(function() {
+                const rgb = colorThief.getColor(video);
+                const brightness = (rgb[0] * 299 + rgb[1] * 587 + rgb[2] * 114) / 1000;
+                const textColor = brightness > 125 ? '#000000' : '#FFFFFF'; // Adjust threshold as needed
+                content.style.color = textColor;
+            }, 1000); // Adjust interval as needed
+        });
+    </script>
   </body>
 </html>
