@@ -24,7 +24,7 @@ html, body { background: white; }
 html { height: 100%; }
 
 body {
-  color: rgb(39, 39, 39);
+  color: rgb(255, 255, 255);
   /*background: radial-gradient(circle at center, #ffffff 0%, #000000 100%);
   image-rendering: pixelated; /* Apply pixelation */
   /*filter: blur(20px);  Adjust the blur radius for the desired pixel size */
@@ -38,7 +38,7 @@ body {
 a {
   display: table;
   font-family: 'IBM Plex Mono', monospace;
-  color: rgb(39, 39, 39);
+  color: rgb(255, 255, 255);
 }
 
 #background {
