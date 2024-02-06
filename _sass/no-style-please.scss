@@ -28,7 +28,7 @@ body {
   /*background: radial-gradient(circle at center, #ffffff 0%, #000000 100%);
   image-rendering: pixelated; /* Apply pixelation */
   /*filter: blur(20px);  Adjust the blur radius for the desired pixel size */
-  font-family: monospace;
+  font-family: 'Syncopate', sans-serif;
   font-size: 20px;
   line-height: 1.4;
   margin: 0;
@@ -63,7 +63,9 @@ p {
 
 ul, ol {list-style: none; }
 
-li { margin: 0.4rem 0; }
+li {
+  font-family: 'Xanh Mono', monospace; 
+  margin: 0.4rem 0; }
 
 *:target { background: darkgrey; }
 
