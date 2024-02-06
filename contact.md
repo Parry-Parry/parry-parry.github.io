@@ -2,16 +2,16 @@
 layout: page
 title: Contact
 ---
-Email -->
+<span id='colour'>Email --></span>
 
-first_initial.last_name.1@research.gla.ac.uk
+<span id='colour'>first_initial.last_name.1@research.gla.ac.uk</span>
 
-Office -->
+<span id='colour'>Office --></span>
 
-Room 502, Level 5
+<span id='colour'>Room 502, Level 5</span>
 
-Sir Alwyn Williams Building
+<span id='colour'>Sir Alwyn Williams Building</span>
 
-School of Computing Science
+<span id='colour'>School of Computing Science</span>
 
-Glasgow, G12 8QQ
+<span id='colour'>Glasgow, G12 8QQ</span>
