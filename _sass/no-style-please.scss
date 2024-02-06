@@ -36,7 +36,6 @@ body {
   overflow: hidden;
 }
 a {
-  display: table;
   font-family: 'IBM Plex Mono', monospace;
   color: rgb(255, 255, 255);
 }
@@ -58,7 +57,6 @@ a {
 
 .post-meta { text-align: right; }
 h1{
-  display: table;
   font-family: 'Sixtyfour', sans-serif;
 }
 h2, h3, h4, h5, h6 { 
@@ -68,14 +66,12 @@ h2, h3, h4, h5, h6 {
 hr { margin: 2rem 0; }
 
 p { 
-  display: table;
   font-family: 'IBM Plex Mono', monospace;
   margin: 1rem 0; }
 
 ul, ol {list-style: none; }
 
 li {
-  display: table;
   font-family: 'IBM Plex Mono', monospace;
   margin: 0.4rem 0; }
 
