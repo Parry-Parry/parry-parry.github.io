@@ -2,6 +2,10 @@
 <html lang="{{ page.lang | default: "en" }}">
   {%- include head.html -%}
   <body a="{{ site.theme_config.appearance | default: "auto" }}">
+    <video id="background" autoplay loop muted>
+      <source src="{{ site.baseurl }}/assets/img/bg.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+  </video>
     <main class="page-content" aria-label="Content">
       <div class="w">
         {{ content }}
