@@ -51,11 +51,15 @@ a {
 
 .post-meta { text-align: right; }
 
-h2, h3, h4, h5, h6 { margin-top: 3rem; }
+h2, h3, h4, h5, h6 { 
+  font-family: 'Syncopate', sans-serif;
+  margin-top: 3rem; }
 
 hr { margin: 2rem 0; }
 
-p { margin: 1rem 0; }
+p { 
+  font-family: 'Xanh Mono', monospace;
+  margin: 1rem 0; }
 
 ul, ol {list-style: none; }
 
