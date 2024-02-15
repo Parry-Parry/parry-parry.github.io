@@ -40,6 +40,46 @@ a {
   color: rgb(255, 255, 255);
 }
 
+.boxed-text {
+  background: rgb(250, 164, 34);; /* Your desired background color */
+  display: inline-block; /* Makes the box act like a single character */
+  position: relative; /* Needed for layering effects */
+  padding: 2px; /* Adjust padding for desired box size */
+  border: none; /* Remove default border */
+  font-family: monospace; /* Simulates pixelated look */
+}
+
+.boxed-text::after {
+  /* Same as before, simulates phosphor glow */
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  filter: blur(2px);
+  pointer-events: none; /* Prevent clicks on the overlay */
+}
+
+.boxed-text::before {
+  /* New for background effect */
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 33%,
+    rgba(255, 255, 255, 0.4) 66%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  pointer-events: none; /* Prevent clicks on the overlay */
+}
+
 #colour {
   background-color: rgb(250, 164, 34);
 }
