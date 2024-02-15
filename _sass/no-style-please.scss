@@ -41,46 +41,25 @@ a {
 }
 
 .boxed-text {
-  background: rgb(250, 164, 34); /* Your desired background color */
-  display: inline-block; /* Makes the box act like a single character */
-  position: relative; /* Needed for layering effects */
-  padding: 2px; /* Adjust padding for desired box size */
-  border: none; /* Remove default border */
-  font-family: 'IBM Plex Mono', monospace; /* Simulates pixelated look */
   text-shadow:
-    1px 0px 0px rgba(0, 0, 0, 0.2),
-    -1px 0px 0px rgba(0, 0, 0, 0.2); /* Added text shadow */
+    /* Intense scanlines and glow */
+    1px 0px 0px rgba(0, 0, 0, 0.8),
+    -1px 0px 0px rgba(0, 0, 0, 0.8),
+    0px 1px 0px rgba(0, 0, 0, 0.8),
+    0px -1px 0px rgba(0, 0, 0, 0.8),
+    /* Additional shadow layers for depth */
+    2px 2px 1px rgba(0, 0, 0, 0.3),
+    -2px -2px 1px rgba(0, 0, 0, 0.3),
+    4px 4px 2px rgba(0, 0, 0, 0.2),
+    -4px -4px 2px rgba(0, 0, 0, 0.2);
+  color: rgb(255, 255, 255); /* Set your desired text color */
+  animation: crtFlicker 1s linear infinite alternate; /* Animation for flicker */
 }
 
-.boxed-text::after {
-  /* Same as before, simulates phosphor glow */
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.05);
-  filter: blur(2px);
-  pointer-events: none; /* Prevent clicks on the overlay */
-}
-
-.boxed-text::before {
-  /* New for background effect */
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    to bottom, /* Changed direction for vertical scanlines */
-    rgba(0, 0, 0, 0.2) 0%, /* Increased opacity for better visibility */
-    rgba(0, 0, 0, 0) 50%, /* Changed middle stop position */
-    rgba(0, 0, 0, 0.2) 100%
-  );
-  mix-blend-mode: multiply; /* Combines scanlines with background color */
-  pointer-events: none; /* Prevent clicks on the overlay */
+@keyframes crtFlicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.8; }
+  100% { opacity: 1; }
 }
 
 #colour {
