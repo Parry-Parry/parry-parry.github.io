@@ -8,7 +8,7 @@ entries:
     - title: Supervised by <a href="https://gdebasis.github.io/">Debasis Ganguly</a> and <a href="https://macavaney.us/">Sean MacAvaney</a>
     - title: My research focuses on the trustworthiness of neural ranking models and how we can efficiently train them
     - title: <a href="https://github.com/Parry-Parry">Github</a> <a href="https://twitter.com/MrParryParry">Twitter</a> <a href="https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AH70aAWZyGD-cjqLoT_bxNilgrsPhMs_omGP1J8UFQavfwT8fki2b4AaYfouuu9vYf5UEm7I2WwCKKcbkh_znVR5uwa7&user=F_S1DXkAAAAJ">Scholar</a> <a href="contact">Contact</a> <a href="cv">CV</a> <a href="about">Lore</a>
-  - title: Pre-Prints
+  - title: Publications
     entries:
       - title: Analyzing Adversarial Attacks on Sequence-to-Sequence Relevance Models 
         url: https://parry-parry.github.io/assets/pdf/adv_seq2seq.pdf
@@ -18,6 +18,12 @@ entries:
         url: https://parry-parry.github.io/assets/pdf/dl23.pdf
       - title: A. Parry, T. Jaenich, S. MacAvaney, I. Ounis
       - title: TREC Deep Learning 2023 
+  - title: Pre-Prints
+    entries:
+      - title: Top-Down Partitioning for List-Wise Rankers
+        url: https://parry-parry.github.io/assets/pdf/pivot.pdf
+      - title: "A. Parry, S.MacAvaney, D. Ganguly"
+      - title: "Under Review as Short"
   - title: Code
     entries:
       - title: LightChain
