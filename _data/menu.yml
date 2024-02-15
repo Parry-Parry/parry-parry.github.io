@@ -22,7 +22,7 @@ entries:
     entries:
       - title: Top-Down Partitioning for List-Wise Rankers
         url: https://parry-parry.github.io/assets/pdf/pivot.pdf
-      - title: "A. Parry, S.MacAvaney, D. Ganguly"
+      - title: "A. Parry, S. MacAvaney, D. Ganguly"
       - title: "Under Review as Short"
   - title: Code
     entries:
