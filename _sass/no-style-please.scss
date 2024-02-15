@@ -12,7 +12,7 @@ body[a="dark"] { @include dark-appearance; }
 
 .logo {
   z-index: 1;
-  width: 50%;
+  width: 65%;
 }
 
 @media (prefers-color-scheme: dark) {
