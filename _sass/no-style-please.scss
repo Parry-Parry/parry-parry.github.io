@@ -28,7 +28,9 @@ body {
   /*background: radial-gradient(circle at center, #ffffff 0%, #000000 100%);
   image-rendering: pixelated; /* Apply pixelation */
   /*filter: blur(20px);  Adjust the blur radius for the desired pixel size */
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.4;
   margin: 0;
@@ -36,7 +38,9 @@ body {
   overflow: wrap; 
 }
 a {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
   color: rgb(255, 255, 255);
 }
 
@@ -79,22 +83,30 @@ a {
 
 .post-meta { text-align: right; }
 h1{
-  font-family: 'Sixtyfour', sans-serif;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 h2, h3, h4, h5, h6 { 
-  font-family: 'Sixtyfour', sans-serif;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
   margin-top: 3rem; }
 
 hr { margin: 2rem 0; }
 
 p { 
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
   margin: 1rem 0; }
 
 ul, ol {list-style: none; }
 
 li {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
   margin: 0.4rem 0; }
 
 *:target { background: darkgrey; }
@@ -108,7 +120,8 @@ li {
   z-index: 1;
 }
 #content {
-    background-color: rgb(255, 255, 255, 0.5);
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5)
   }
 hr {
   text-align: center;
