@@ -112,7 +112,6 @@ li {
 *:target { background: darkgrey; }
 
 .w {
-  margin-top: 10%;
   position: relative;
   max-width: 700px;
   margin: 0 auto;
@@ -121,7 +120,7 @@ li {
 }
 #content {
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.5)
+    background-color: rgba(255, 255, 255, 1.0)
   }
 hr {
   text-align: center;
