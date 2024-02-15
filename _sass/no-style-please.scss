@@ -108,8 +108,7 @@ li {
   z-index: 1;
 }
 #content {
-    background-color: rgb(255, 255, 255);
-    opacity: 0.5; /* Set a value between 0 (fully transparent) and 1 (fully opaque) for desired translucency */
+    background-color: rgb(255, 255, 255, 0.5);
   }
 hr {
   text-align: center;
