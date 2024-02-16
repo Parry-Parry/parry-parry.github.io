@@ -10,19 +10,23 @@
 
 body[a="dark"] { @include dark-appearance; }
 
+@keyframes crtFlicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.9; }
+  100% { opacity: 1; }
+}
+
 .logo {
   z-index: 1;
   width: 65%;
-  filter: drop-shadow(
-    1px 0px 0px rgba(0, 0, 0, 0.8),
-    -1px 0px 0px rgba(0, 0, 0, 0.8),
-    0px 1px 0px rgba(0, 0, 0, 0.8),
-    0px -1px 0px rgba(0, 0, 0, 0.8),
-    2px 2px 1px rgba(0, 0, 0, 0.3),
-    -2px -2px 1px rgba(0, 0, 0, 0.3),
-    4px 4px 2px rgba(0, 0, 0, 0.2),
-    -4px -4px 2px rgba(0, 0, 0, 0.2)
-  );
+  filter: drop-shadow(1px 0px 0px rgba(0, 0, 0, 0.8))
+  drop-shadow(-1px 0px 0px rgba(0, 0, 0, 0.8))
+  drop-shadow(0px 1px 0px rgba(0, 0, 0, 0.8))
+  drop-shadow(0px -1px 0px rgba(0, 0, 0, 0.8))
+  drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.3))
+  drop-shadow(-2px -2px 1px rgba(0, 0, 0, 0.3))
+  drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.2))
+  drop-shadow(-4px -4px 2px rgba(0, 0, 0, 0.2));
   animation: crtFlicker 1s linear infinite alternate; /* Animation for flicker */
 }
 
@@ -79,11 +83,7 @@ a {
   animation: crtFlicker 1s linear infinite alternate; /* Animation for flicker */
 }
 
-@keyframes crtFlicker {
-  0% { opacity: 1; }
-  50% { opacity: 0.9; }
-  100% { opacity: 1; }
-}
+
 #colour {
   /*background-color: rgb(250, 164, 34);*/
 }
