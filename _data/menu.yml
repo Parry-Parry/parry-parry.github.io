@@ -23,22 +23,26 @@ entries:
       - title: TREC Deep Learning 2023 
   - title: Pre-Prints
     entries:
-      - title: "Exploiting Positional Bias for Query-Agnostic Generative Content in Search"
-        url: https://parry-parry.github.io/assets/pdf/context.pdf
-      - title: A. Parry, S. MacAvaney, D. Ganguly
-      - title: "Under Review as Full Paper"
       - title: Top-Down Partitioning for List-Wise Rankers
         url: https://parry-parry.github.io/assets/pdf/pivot.pdf
       - title: "A. Parry, S. MacAvaney, D. Ganguly"
       - title: "Under Review as Short Paper"
+      - title: "Exploiting Positional Bias for Query-Agnostic Generative Content in Search"
+        url: https://parry-parry.github.io/assets/pdf/context.pdf
+      - title: A. Parry, S. MacAvaney, D. Ganguly
+      - title: "Under Review as Full Paper"
   - title: Code
     entries:
+      - title: Contrast 
+        url: https://github.com/Parry-Parry/Contrast
       - title: LightChain
         url: https://github.com/Parry-Parry/LightChain
       - title: ParryUtils
         url: https://github.com/Parry-Parry/ParryUtils
       - title: idaLLM
         url: https://github.com/Parry-Parry/idaLLM
+      - title: PyTerrier LLM
+        url: https://github.com/Parry-Parry/pyterrier_llm
       - title: PyTerrier GenerativeQR
         url: https://github.com/Parry-Parry/pyterrier_GenerativeQR
     
