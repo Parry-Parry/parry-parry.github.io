@@ -51,8 +51,11 @@ title: CV
 <h3 id='colour'>Awards (A long time ago...)</h3>
 
 <span id='colour'>8 Academic Merit Awards during Highschool</span>
+
 <span id='colour'>1st in Computing Science, 5th and 6th year</span>
+
 <span id='colour'>1st placement in national school chess competition</span>
+
 <span id='colour'>3 1st placements at regional chess competition</span>
 
 <h2 id='colour'>Academic Service</h2>
