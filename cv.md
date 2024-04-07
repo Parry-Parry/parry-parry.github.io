@@ -46,6 +46,7 @@ title: CV
 <h2 id='colour'>Awards</h2>
 
 <span id='colour'>3rd Overall in TREC Deep Learning 2023</span>
+
 <span id='colour'>Full Scholarship awarded for duration of PhD</span>
 
 <h3 id='colour'>A long time ago...</h3>
