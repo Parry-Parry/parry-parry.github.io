@@ -56,7 +56,7 @@ title: CV
 
 <span id='colour'>1st placement in national school chess competition</span>
 
-<span id='colour'>3 1st placements at regional chess competition</span>
+<span id='colour'>3 1st placements at regional chess competitions</span>
 
 <h2 id='colour'>Academic Service</h2>
 
