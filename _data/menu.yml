@@ -11,7 +11,7 @@ entries:
   - title: Publications
     entries:
       - title: In Context Learning or How I learned to stop worrying and love Applied Information Retrieval
-      - title: D. Ganguly, M. Chandra, A. Parry
+      - title: A. Parry, D. Ganguly, M. Chandra
       - title: SIGIR 2024
       - title: Analyzing Adversarial Attacks on Sequence-to-Sequence Relevance Models 
         url: https://parry-parry.github.io/assets/pdf/adv_seq2seq.pdf
