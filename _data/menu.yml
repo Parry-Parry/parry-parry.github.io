@@ -10,6 +10,9 @@ entries:
     - title: <a href="https://github.com/Parry-Parry">Github</a> <a href="https://twitter.com/MrParryParry">Twitter</a> <a href="https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AH70aAWZyGD-cjqLoT_bxNilgrsPhMs_omGP1J8UFQavfwT8fki2b4AaYfouuu9vYf5UEm7I2WwCKKcbkh_znVR5uwa7&user=F_S1DXkAAAAJ">Scholar</a> <a href="contact">Contact</a> <a href="cv">CV</a> <a href="about">About</a>
   - title: Publications
     entries:
+      - title: Axiomatic Guidance for Efficient and Controlled Neural Search
+      - title: A. Parry
+      - title: SIGIR 2024
       - title: In Context Learning or How I learned to stop worrying and love Applied Information Retrieval
       - title: A. Parry, D. Ganguly, M. Chandra
       - title: SIGIR 2024
