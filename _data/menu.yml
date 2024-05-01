@@ -7,7 +7,7 @@ entries:
     - title: 2nd Year Information Retrieval PhD Candidate at the University of Glasgow
     - title: Supervised by <a href="https://gdebasis.github.io/">Debasis Ganguly</a> and <a href="https://macavaney.us/">Sean MacAvaney</a>
     - title: My research focuses on the trustworthiness of neural ranking models and how we can efficiently train them
-    - title: <a href="https://github.com/Parry-Parry">Github</a> <a href="https://twitter.com/MrParryParry">Twitter</a> <a href="https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AH70aAWZyGD-cjqLoT_bxNilgrsPhMs_omGP1J8UFQavfwT8fki2b4AaYfouuu9vYf5UEm7I2WwCKKcbkh_znVR5uwa7&user=F_S1DXkAAAAJ">Scholar</a> <a href="contact">Contact</a> <a href="cv">CV</a> <a href="about">About</a>
+    - title: <a href="https://github.com/Parry-Parry">Github</a> <a href="https://twitter.com/MrParryParry">Twitter</a> <a href="https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AH70aAWZyGD-cjqLoT_bxNilgrsPhMs_omGP1J8UFQavfwT8fki2b4AaYfouuu9vYf5UEm7I2WwCKKcbkh_znVR5uwa7&user=F_S1DXkAAAAJ">Scholar</a> <a href="contact">Contact</a> <a href="https://parry-parry.github.io/assets/pdf/cv.pdf">CV</a> <a href="about">About</a>
   - title: Publications
     entries:
       - title: Axiomatic Guidance for Efficient and Controlled Neural Search
@@ -17,7 +17,7 @@ entries:
       - title: A. Parry, D. Ganguly, M. Chandra
       - title: SIGIR 2024
       - title: Analyzing Adversarial Attacks on Sequence-to-Sequence Relevance Models 
-        url: https://parry-parry.github.io/assets/pdf/adv_seq2seq.pdf
+        url: https://arxiv.org/abs/2403.07654
       - title: A. Parry, M. Fröbe, S. MacAvaney, M. Potthast, M. Hagen 
       - title: ECIR 2024 
       - title: Generative Relevance Feedback and Convergence of Adaptive Re-Ranking, University of Glasgow Terrier Team at TREC DL 2023
@@ -26,14 +26,14 @@ entries:
       - title: TREC Deep Learning 2023 
   - title: Pre-Prints
     entries:
-      - title: Top-Down Partitioning for List-Wise Rankers
-        url: https://parry-parry.github.io/assets/pdf/pivot.pdf
-      - title: "A. Parry, S. MacAvaney, D. Ganguly"
-      - title: "Under Review as Short Paper"
       - title: "Exploiting Positional Bias for Query-Agnostic Generative Content in Search"
         url: https://parry-parry.github.io/assets/pdf/context.pdf
       - title: A. Parry, S. MacAvaney, D. Ganguly
       - title: "Under Review as Full Paper"
+      - title: Top-Down Partitioning for List-Wise Rankers
+        url: https://parry-parry.github.io/assets/pdf/pivot.pdf
+      - title: "A. Parry, S. MacAvaney, D. Ganguly"
+      - title: "Under Review as Short Paper"
   - title: Code
     entries:
       - title: Contrast 
