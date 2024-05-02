@@ -27,7 +27,7 @@ entries:
   - title: Pre-Prints
     entries:
       - title: "Exploiting Positional Bias for Query-Agnostic Generative Content in Search"
-        url: https://parry-parry.github.io/assets/pdf/context.pdf
+        url: https://arxiv.org/abs/2405.00469
       - title: A. Parry, S. MacAvaney, D. Ganguly
       - title: "Under Review as Full Paper"
       - title: Top-Down Partitioning for List-Wise Rankers
