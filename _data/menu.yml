@@ -11,10 +11,10 @@ entries:
   - title: Publications
     entries:
       - title: Axiomatic Guidance for Efficient and Controlled Neural Search
-        url: https://arxiv.org/abs/2405.01116
       - title: A. Parry
       - title: SIGIR 2024
       - title: In Context Learning or How I learned to stop worrying and love Applied Information Retrieval
+        url: https://arxiv.org/abs/2405.01116
       - title: A. Parry, D. Ganguly, M. Chandra
       - title: SIGIR 2024
       - title: Analyzing Adversarial Attacks on Sequence-to-Sequence Relevance Models 
