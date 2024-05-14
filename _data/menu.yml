@@ -27,13 +27,13 @@ entries:
       - title: TREC Deep Learning 2023 
   - title: Pre-Prints
     entries:
-      - title: "Exploiting Positional Bias for Query-Agnostic Generative Content in Search"
-        url: https://arxiv.org/abs/2405.00469
-      - title: A. Parry, S. MacAvaney, D. Ganguly
-      - title: "Under Review as Full Paper"
       - title: Top-Down Partitioning for Efficient List-Wise Ranking
         url: https://parry-parry.github.io/assets/pdf/pivot.pdf
       - title: "A. Parry, S. MacAvaney, D. Ganguly"
+      - title: "Under Review as Full Paper"
+      - title: "Exploiting Positional Bias for Query-Agnostic Generative Content in Search"
+        url: https://arxiv.org/abs/2405.00469
+      - title: A. Parry, S. MacAvaney, D. Ganguly
       - title: "Under Review as Full Paper"
   - title: Code
     entries:
