@@ -10,6 +10,10 @@ entries:
     - title: <a href="https://github.com/Parry-Parry">Github</a> <a href="https://twitter.com/MrParryParry">Twitter</a> <a href="https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AH70aAWZyGD-cjqLoT_bxNilgrsPhMs_omGP1J8UFQavfwT8fki2b4AaYfouuu9vYf5UEm7I2WwCKKcbkh_znVR5uwa7&user=F_S1DXkAAAAJ">Scholar</a> <a href="contact">Contact</a> <a href="https://parry-parry.github.io/assets/pdf/cv.pdf">CV</a> <a href="about">About</a>
   - title: Publications
     entries:
+      - title: "Exploiting Positional Bias for Query-Agnostic Generative Content in Search"
+        url: https://arxiv.org/abs/2405.00469
+      - title: A. Parry, S. MacAvaney, D. Ganguly
+      - title: "ACL 2024 Findings"
       - title: Axiomatic Guidance for Efficient and Controlled Neural Search
       - title: A. Parry
       - title: SIGIR 2024
@@ -30,10 +34,6 @@ entries:
       - title: Top-Down Partitioning for Efficient List-Wise Ranking
         url: https://parry-parry.github.io/assets/pdf/pivot.pdf
       - title: "A. Parry, S. MacAvaney, D. Ganguly"
-      - title: "Under Review as Full Paper"
-      - title: "Exploiting Positional Bias for Query-Agnostic Generative Content in Search"
-        url: https://arxiv.org/abs/2405.00469
-      - title: A. Parry, S. MacAvaney, D. Ganguly
       - title: "Under Review as Full Paper"
   - title: Code
     entries:
