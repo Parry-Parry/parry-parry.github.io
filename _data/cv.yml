@@ -67,7 +67,7 @@
       description:
         - Lead on Deep Learning 2023 Track
           contents:
-            - url: https://parry-parry.github.io/assets/pdf/dl23.pdf (Notebook)
+            - https://parry-parry.github.io/assets/pdf/dl23.pdf(Notebook)
             - 3rd Overall
     - title: Organiser of the Terrier Special Interest Group in Generative IR
       year: 2023
