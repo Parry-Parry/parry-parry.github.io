@@ -49,11 +49,11 @@
   type: time_table
   contents:
     - year:
-      items:
+      contents:
         - 3rd Overall in TREC Deep Learning 2023
         - Full Scholarship awarded for duration of PhD
     - title: A long time ago...
-      items:
+      contents:
         - 8 Academic Merit Awards during Highschool
         - 1st in Computing Science, 5th and 6th year
         - 1st placement in national school chess competition
@@ -66,9 +66,8 @@
       year: 2023
       description:
         - Lead on Deep Learning 2023 Track
-          contents:
-            - https://parry-parry.github.io/assets/pdf/dl23.pdf(Notebook)
-            - 3rd Overall
+        - https://parry-parry.github.io/assets/pdf/dl23.pdf
+        - 3rd Overall
     - title: Organiser of the Terrier Special Interest Group in Generative IR
       year: 2023
     - title: Marking
