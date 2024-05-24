@@ -18,4 +18,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a 2nd year Phd Candidate in the [School of Computing Science](https://www.gla.ac.uk/schools/computing/) at the [University of Glasgow](https://www.gla.ac.uk/). My research interests are broadly in natural language processing and specifically information retrieval. My research is focused on inducing control over neural models without post-hoc constraint and how we can incorporate broader features in semantic interactions.
+I am a 2nd year Phd Candidate in the [School of Computing Science](https://www.gla.ac.uk/schools/computing/) at the [University of Glasgow](https://www.gla.ac.uk/). My research interests are broadly in natural language processing and specifically information retrieval. My research is focused on inducing control over neural models without post-hoc constraint and how we can incorporate broader features in semantic interactions. A relatively up to date CV can be found [here](https://parry-parry.github.io/assets/pdf/cv.pdf).
