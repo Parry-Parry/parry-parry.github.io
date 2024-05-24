@@ -6,22 +6,13 @@
       year: 2026
       description:
         - Full Scholarship
-        - Supervised by:
-          - title: Debasis Ganguly
-            contents:
-              - url: https://gdebasis.github.io/
-          - title: Sean MacAvaney
-            contents:
-              - url: https://macavaney.us/
+        - title: Supervised by [Debasis Ganguly](https://gdebasis.github.io/) and [Sean MacAvaney](https://macavaney.us/)
     - title: Bsc (Hons) Computing Science with Data Management
       institution: University of Glasgow
       year: 2022
       description:
         - 1st Class Honours
-        - Supervised by:
-          - title: Debasis Ganguly
-            contents:
-              - url: https://gdebasis.github.io/
+        - Supervised by [Debasis Ganguly](https://gdebasis.github.io/)
 
 - title: Experience
   type: time_table
@@ -31,9 +22,7 @@
       year: 2022
       description:
         - Work in variational inference for low information training of neural models.
-        - PI: Debasis Ganguly
-          contents:
-            - url: https://gdebasis.github.io/
+        - PI: [Debasis Ganguly](https://gdebasis.github.io/)
     - title: Data Analytics Intern
       institution: Waterstons Consulting
       year: 2021
@@ -48,10 +37,9 @@
 - title: Awards
   type: time_table
   contents:
-    - year:
-      contents:
-        - 3rd Overall in TREC Deep Learning 2023
-        - Full Scholarship awarded for duration of PhD
+      - SIGIR 24 Travel Grant
+      - 3rd Overall in TREC Deep Learning 2023
+      - Full Scholarship awarded for duration of PhD
     - title: A long time ago...
       contents:
         - 8 Academic Merit Awards during Highschool
