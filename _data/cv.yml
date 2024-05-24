@@ -6,13 +6,13 @@
       year: 2026
       description:
         - Full Scholarship
-        - title: Supervised by [Debasis Ganguly](https://gdebasis.github.io/) and [Sean MacAvaney](https://macavaney.us/)
+        - title: Supervised by <a href="https://gdebasis.github.io/">Debasis Ganguly]<\a> and <a href="https://macavaney.us/">Sean MacAvaney<\a>
     - title: Bsc (Hons) Computing Science with Data Management
       institution: University of Glasgow
       year: 2022
       description:
         - 1st Class Honours
-        - Supervised by [Debasis Ganguly](https://gdebasis.github.io/)
+        - Supervised by <a href="https://gdebasis.github.io/">Debasis Ganguly]<\a>
 
 - title: Experience
   type: time_table
@@ -22,7 +22,7 @@
       year: 2022
       description:
         - Work in variational inference for low information training of neural models.
-        - PI: [Debasis Ganguly](https://gdebasis.github.io/)
+        - "PI: <a href="https://gdebasis.github.io/">Debasis Ganguly]<\a>"
     - title: Data Analytics Intern
       institution: Waterstons Consulting
       year: 2021
@@ -41,7 +41,7 @@
       - 3rd Overall in TREC Deep Learning 2023
       - Full Scholarship awarded for duration of PhD
     - title: A long time ago...
-      contents:
+      description:
         - 8 Academic Merit Awards during Highschool
         - 1st in Computing Science, 5th and 6th year
         - 1st placement in national school chess competition
@@ -54,7 +54,6 @@
       year: 2023
       description:
         - Lead on Deep Learning 2023 Track
-        - https://parry-parry.github.io/assets/pdf/dl23.pdf
         - 3rd Overall
     - title: Organiser of the Terrier Special Interest Group in Generative IR
       year: 2023
