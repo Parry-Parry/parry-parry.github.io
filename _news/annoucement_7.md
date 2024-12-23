@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our Full Paper and Demo Paper are accepted at ECIR 2025!
+Our full paper and demo paper are accepted at ECIR 2025!
