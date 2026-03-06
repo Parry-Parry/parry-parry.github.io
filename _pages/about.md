@@ -8,10 +8,6 @@ profile:
   align: right
   image: profile.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Room 502, Level 5</p>
-    <p>Sir Alwyn Williams Building</p>
-    <p>Glasgow, G12 8QQ</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
