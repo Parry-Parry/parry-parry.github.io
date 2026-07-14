@@ -15,6 +15,13 @@ My thesis is focused on the structure of ad-hoc ranking systems and how we can i
 <li>ORCID: <a href="https://orcid.org/{{ site.orcid_id }}">{{ site.orcid_id }}</a></li>
 </ul>
 
+<h2>Software</h2>
+
+<p><code><a href="https://github.com/Parry-Parry/rankers">rankers</a></code>: Training neural retrievers.</p>
+<p><code><a href="https://github.com/Parry-Parry/MechIR">MechIR</a></code>: Mechanistic interpretability in information retrieval.</p>
+<p><code><a href="https://github.com/Parry-Parry/suiteeval">suiteeval</a></code>: IR evaluation suites in PyTerrier.</p>
+<p><code><a href="https://github.com/terrierteam/pyterrier_rag">terrierteam/pyterrier_rag</a></code>: Retrieval-augmented generation for the PyTerrier ecosystem.</p>
+
 <h2>News</h2>
 
 <table>
@@ -28,12 +35,3 @@ My thesis is focused on the structure of ad-hoc ranking systems and how we can i
 {% endfor %}
 </tbody>
 </table>
-
-<h2>Code</h2>
-
-<ul>
-<li><a href="https://github.com/Parry-Parry/Contrast">Parry-Parry/Contrast</a></li>
-<li><a href="https://github.com/Parry-Parry/LightChain">Parry-Parry/LightChain</a></li>
-<li><a href="https://github.com/Parry-Parry/ParryUtils">Parry-Parry/ParryUtils</a></li>
-<li><a href="https://github.com/Parry-Parry/pyterrier_llm">Parry-Parry/pyterrier_llm</a></li>
-</ul>

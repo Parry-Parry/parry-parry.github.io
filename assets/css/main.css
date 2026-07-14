@@ -5,9 +5,9 @@
 :root { color-scheme: only light; }
 
 html {
-  font-family: "Times New Roman", Times, Georgia, serif;
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
   font-size: 16px;
-  line-height: 1.45;
+  line-height: 1.5;
   color: #000;
   background: #fff;
 }
