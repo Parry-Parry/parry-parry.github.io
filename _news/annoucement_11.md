@@ -1,5 +1,4 @@
 ---
-layout: post
 date: 2025-4-5
 inline: true
 related_posts: false

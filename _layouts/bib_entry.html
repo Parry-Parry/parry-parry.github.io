@@ -1,0 +1,27 @@
+<div class="pub-entry">
+{% assign author_list = entry.author | split: ' and ' -%}
+{% for a in author_list -%}
+{%- assign parts = a | split: ', ' -%}
+{%- assign last = parts[0] -%}
+{%- assign first = parts[1] -%}
+{%- if last == 'Parry' and first contains 'Andrew' -%}
+<strong>{{ first }} {{ last }}</strong>
+{%- else -%}
+{{ first }} {{ last }}
+{%- endif -%}
+{%- unless forloop.last %}, {% endunless -%}
+{% endfor %}.
+{{ entry.title | normalize_whitespace }}.
+{% if entry.booktitle %}<em class="pub-venue">{{ entry.booktitle | normalize_whitespace | truncatewords: 14, "..." }}</em>,{% elsif entry.journal %}<em class="pub-venue">{{ entry.journal }}{% if entry.volume %} {{ entry.volume }}{% endif %}</em>,{% endif %}
+{{ entry.year }}.
+<span class="pub-links">
+{%- if entry.doi %} [<a href="https://doi.org/{{ entry.doi }}">doi</a>]{% endif -%}
+{%- if entry.journal == "CoRR" and entry.volume contains "abs/" -%}
+{% assign arxiv_id = entry.volume | remove: 'abs/' %} [<a href="https://arxiv.org/abs/{{ arxiv_id }}">arXiv</a>]
+{%- elsif entry.url contains "arXiv." -%}
+{% assign arxiv_id = entry.url | split: 'arXiv.' | last %} [<a href="https://arxiv.org/abs/{{ arxiv_id }}">arXiv</a>]
+{%- endif -%}
+{%- if entry.url contains "aclanthology.org" %} [<a href="{{ entry.url }}">ACL Anthology</a>]{% endif -%}
+{%- if entry.url contains "trec.nist.gov" %} [<a href="{{ entry.url }}">TREC</a>]{% endif -%}
+</span>
+</div>

@@ -15,6 +15,13 @@ collections:
   news:
     output: false
 
+defaults:
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: null
+
 scholar:
   source: _bibliography
   bibliography: papers.bib
