@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+<h1>{{ site.title }}</h1>
+<p class="nav">
+<a href="{{ '/' | relative_url }}">Home</a> |
+<a href="{{ '/publications/' | relative_url }}">Publications</a>
+</p>
+<hr>
+{{ content }}
+<hr>
+<p class="footer">Last updated {{ site.time | date: "%-d %B %Y" }}. No cookies, no scripts, no tracking.</p>
+</body>
+</html>

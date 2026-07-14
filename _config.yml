@@ -1,0 +1,39 @@
+title: Andrew Parry
+description: Andrew Parry — Information Retrieval researcher, University of Glasgow.
+url: https://parry-parry.github.io
+baseurl: ""
+
+email: a.parry.1@research.gla.ac.uk
+github_username: Parry-Parry
+scholar_userid: F_S1DXkAAAAJ
+orcid_id: 0000-0001-5446-8328
+
+markdown: kramdown
+highlighter: rouge
+
+collections:
+  news:
+    output: false
+
+scholar:
+  source: _bibliography
+  bibliography: papers.bib
+  bibliography_template: bib_entry
+  sort_by: year
+  order: descending
+  group_by: year
+  group_order: descending
+  bibtex_filters: [latex]
+  replace_strings: true
+  join_strings: true
+
+plugins:
+  - jekyll/scholar
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - MIGRATION_NOTES.md
+  - README.md
+  - vendor

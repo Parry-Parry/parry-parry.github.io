@@ -1,0 +1,68 @@
+/* parry-parry.github.io
+   Principled 90s. Times, black on white, classic link colours.
+   Hierarchy by weight and rhythm, not size or colour. */
+
+:root { color-scheme: only light; }
+
+html {
+  font-family: "Times New Roman", Times, Georgia, serif;
+  font-size: 16px;
+  line-height: 1.45;
+  color: #000;
+  background: #fff;
+}
+
+body {
+  max-width: 38rem;
+  margin: 0 auto;
+  padding: 0.75rem 1rem 1.5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.75rem 0;
+}
+
+h2, h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 1.5rem 0 0.75rem;
+}
+
+p, ul, ol, table {
+  margin: 0 0 0.75rem;
+}
+
+a:link { color: #0000EE; }
+a:visited { color: #551A8B; }
+a:active { color: #FF0000; }
+
+hr {
+  border: none;
+  border-top: 1px solid #000;
+  margin: 1.5rem 0;
+}
+
+ul, ol { padding-left: 1.5rem; }
+
+table { border-collapse: collapse; width: 100%; }
+th, td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.25rem 0.75rem 0.25rem 0;
+}
+th { border-bottom: 1px solid #000; }
+
+code, pre {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.9375rem;
+}
+
+.nav { margin: 0 0 0.75rem; }
+
+.footer { font-size: 0.875rem; }
+
+.pub-entry { margin: 0 0 0.75rem; }
+.pub-venue { font-style: italic; }
+.pub-links { font-size: 0.875rem; }
